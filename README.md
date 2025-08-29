@@ -1,24 +1,5 @@
 # Toward-Precision-Oncology-Reinforcement-Guided-GPT-Pipeline-for-EGFR-Inhibitor-Discovery
-Generating new drug-like molecules is a complex
-and time-intensive process, often requiring the evaluation of
-thousands of compounds. Traditional trial-and-error methods
-are costly and uncertain, highlighting the need for smarter
-generative approaches. Recent studies have explored deep learn-
-ing and reinforcement learning (RL) for molecular generation,
-with models like ReLeaSE, REINVENT, and ChemGPT showing
-promise. However, few approaches have directly applied RL
-with pretrained chemical language models to generate EGFR-
-specific inhibitors. We propose a reinforcement learning (RL)-
-based framework for EGFR-specific drug design, integrating
-a Transformer-based chemical language model (cMolGPT), a
-property predictor (XGBoost), and Proximal Policy Optimization
-(PPO). Using the ChEMBL203 dataset, the model was guided
-to generate molecules with high predicted pIC50 values through
-a custom reward function. Experimental results show that the
-XGBoost model achieved strong predictive performance (R2 =
-0.7475, MAE = 0.5111), making it effective in guiding the RL pro-
-cess. The generated molecules displayed high predicted activity,
-favorable lipophilicity, and a diverse range of molecular weights,
-which indicates strong drug-likeness and target specificity.These
-results confirm the effectiveness of our framework in generating
-valid, potent, and target-specific molecules
+Generating new drug-like molecules is a complex and time-consuming process, often requiring the assessment of thousands of compounds. Conventional trial-and-error approaches are expensive and uncertain, underscoring the need for more intelligent generative methods. Recent research has investigated deep learning and reinforcement learning (RL) for molecular generation, with models such as ReLeaSE, REINVENT, and ChemGPT demonstrating potential. However, few methods have directly utilized RL with pretrained chemical language models to design EGFR-specific inhibitors. We introduce a reinforcement learning (RL)-based framework for EGFR-specific drug design, combining a Transformer-based chemical language model (cMolGPT), a property predictor (XGBoost), and Proximal Policy Optimization (PPO). Using the ChEMBL203 dataset, the model was directed to produce molecules with high predicted pIC50 values through a tailored reward function. Experimental results indicate that the XGBoost model achieved robust predictive performance (R2 = 0.7475, MAE = 0.5111), effectively guiding the RL process. The generated molecules exhibited high predicted activity, favorable lipophilicity, and a diverse range of molecular weights, suggesting strong drug-likeness and target specificity. These findings validate the effectiveness of our framework in producing valid, potent, and target-specific molecules.
+
+
+Codes will be uploaded very soon.
